@@ -7,19 +7,19 @@ TURN_TIME = 1
 TURN_SPEED = 3
 
 
-def run(fanatics_bot):
-	fanatics_bot.forward(LINE_SPEED)
+def run(fan_bot):
+	fan_bot.forward(LINE_SPEED)
 	sleep(LINE_TIME)
-	fanatics_bot.turn_left(TURN_SPEED)
+	fan_bot.turn_left(TURN_SPEED)
 	sleep(TURN_TIME)
-	fanatics_bot.forward(LINE_SPEED)
+	fan_bot.forward(LINE_SPEED)
 	sleep(LINE_TIME)
-	fanatics_bot.turn_left(TURN_SPEED)
+	fan_bot.turn_left(TURN_SPEED)
 	sleep(TURN_TIME)
-	fanatics_bot.forward(LINE_SPEED)
+	fan_bot.forward(LINE_SPEED)
 	sleep(LINE_TIME)
-	fanatics_bot.turn_left(TURN_SPEED)
+	fan_bot.turn_left(TURN_SPEED)
 	sleep(TURN_TIME)
-	fanatics_bot.forward(LINE_SPEED)
+	fan_bot.forward(LINE_SPEED)
 	sleep(LINE_TIME)
-	fanatics_bot.stop()
+	fan_bot.stop()
