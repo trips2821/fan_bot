@@ -8,7 +8,7 @@
 from machine import Pin
 import webrepl
 
-# these are the pins available on an ESP2286
+# these are the pins available on an ESP8266
 for pin in [0,2,4,5,12,13,14,15,16]:
 	p = Pin(pin, Pin.OUT)
 	p.value(0)
