@@ -1,3 +1,10 @@
+# fan_bot for MicroPython
+# authors: Tom Stephens & Matthew Johnson
+#
+# main.py
+# create an instance of our bot, make sure
+# it's available when we connect with webREPL
+
 from motor import Motor
 from bot import Bot
 

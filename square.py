@@ -1,3 +1,9 @@
+# fan_bot for MicroPython
+# authors: Tom Stephens & Matthew Johnson
+#
+# square.py
+# Drive the bot in roughly a square-ish shape
+
 from time import sleep
 
 LINE_TIME = 3
